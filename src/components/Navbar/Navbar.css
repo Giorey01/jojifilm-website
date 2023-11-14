@@ -1,0 +1,17 @@
+.navbar{
+    font-weight: 700;
+    align-items: center !important;
+}   
+
+
+
+.navbar li a {
+    color: rgba(235, 240, 240, 0.85) !important;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        top: -2rem !important;
+    }
+  }

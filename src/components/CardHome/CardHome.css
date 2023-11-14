@@ -1,0 +1,16 @@
+.card {
+    width: 30rem;
+    border: none !important;
+}
+
+.home-card {
+    border-radius: 5px;
+    border: 4px solid white;
+}
+
+.card-title {
+    color: white !important;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 4.25em;
+}
