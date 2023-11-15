@@ -1,6 +1,6 @@
 import backgroundimage from './background-image.jpg'
 import Grain from '../../components/GrainFx/Grain';
-
+import React from 'react';
 function Background() {
     return (
         <>

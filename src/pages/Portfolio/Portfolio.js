@@ -1,5 +1,6 @@
 import Background from '../../components/Sfondo/background';
 import './Portfolio.css'
+import React from 'react';
 
 function Portfolio() {
     return (
