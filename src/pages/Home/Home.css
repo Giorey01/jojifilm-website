@@ -6,3 +6,22 @@
 h1 {
     color: white !important;
 }
+
+.carosello-wrapper {
+    box-shadow: 0 10px 50px #bdb2ac82;
+}
+
+
+.card-title {
+    color: white !important;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 4.25em;
+    transition: all 0.2s ease-in-out;
+
+}
+
+
+.card-title:hover {
+    transform: scale(1.05, 1.05);
+}

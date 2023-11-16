@@ -17,8 +17,11 @@
     height: 100vh;
   }
   
+
+
   .horizontal-scroll-wrapper {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     width: 100vh;
@@ -86,15 +89,15 @@
     overflow: hidden;
     display: block;
     padding: 1vh ;
-    background: #efecdb;
-    box-shadow: 0 10px 50px #5f2f1182;
+    background: #ffffff;
+    box-shadow: 0 10px 50px #bdb2ac82;
   }
   .sliding-img {
     max-width: 45vh;
     max-height: 50vh;
     transition: .5s;
     vertical-align: top;
-    filter: saturate(40%) sepia(30%) hue-rotate(5deg);
+    filter: saturate(0%) hue-rotate(5deg);
   }
   a:hover img {
     filter: none;

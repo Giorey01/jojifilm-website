@@ -6,11 +6,12 @@
 .home-card {
     border-radius: 5px;
     border: 4px solid white;
+    box-shadow: 0 10px 30px #bdb2ac82;
+    transition: all 0.2s ease-in-out;
+
 }
 
-.card-title {
-    color: white !important;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 4.25em;
+
+.home-card:hover {
+    transform: scale(1.05, 1.05);
 }

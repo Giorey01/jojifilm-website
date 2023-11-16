@@ -29,25 +29,25 @@ function Home() {
                 <FullpageNavigation />
                 <FullPageSections>
                     <FullpageSection>
-                    <div className="z-0 position-relative vh-100 overflow-hidden d-flex align-items-center">
-                        <Background />
-                        <div className='z-3 container text-align-center justify-content-center gap-3'>
-                            <CardHome />
-                            <h5 class="card-title">HELLO!</h5>
-                        </div>
+                        <div className="z-0 position-relative vh-100 overflow-hidden d-flex align-items-center">
+                            <Background />
+                            <div className='z-3 container text-align-center justify-content-center gap-3'>
+                                <CardHome />
+                                <h5 class="card-title">HELLO!</h5>
+                            </div>
                         </div>
                     </FullpageSection>
                     <FullpageSection style={{ ...SectionStyle, backgroundImage: `url(${bg_black})` }}>
-                        <div className='container' style={{height: '50%', width: '100%'}}>
-                            <Carousel>
+                        <div className='container container-carosello' style={{ height: '50%', width: '100%' }}>
+                            <Carousel className='border border-5 rounded carosello-wrapper'>
                                 <Carousel.Item interval={CarouseInterval}>
-                                    <img src={carousel_1} alt='...' className='carosellino border border-5 img-fluid'/>
+                                    <img src={carousel_1} alt='...' className='carosellino img-fluid' />
                                 </Carousel.Item>
                                 <Carousel.Item interval={CarouseInterval}>
-                                    <img src={carousel_2} alt='...' className='carosellino border border-5 img-fluid'/>
+                                    <img src={carousel_2} alt='...' className='carosellino img-fluid' />
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                    <img src={carousel_3} alt='...' className='carosellino border border-5 img-fluid'/>
+                                    <img src={carousel_3} alt='...' className='carosellino img-fluid' />
                                 </Carousel.Item>
                             </Carousel>
                             <h1>sara é una bella ragazza</h1>

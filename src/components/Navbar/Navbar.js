@@ -2,14 +2,7 @@ import './Navbar.css'
 import Portfolio from '../../pages/Portfolio/Portfolio';
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
-
-import {
-  AiFillStar,
-  AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-  AiOutlineUser,
-} from "react-icons/ai";
-
+import upArrow from '../../assets/icons/up-arrow.png'
 
 
 function Navbar() {
@@ -32,7 +25,13 @@ function Navbar() {
 
   return (
     <nav class="navbar navbar-expand-lg m-5 navbar-dark fixed-top fs-2" >
-      <a class="navbar-brand" href="#">GP</a>
+      <Link
+              as={Link}
+              to="/"
+              onClick={() => updateExpanded(false)}
+            >
+              GP
+            </Link>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -46,6 +45,7 @@ function Navbar() {
             >
               Home
             </Link>
+            <p className='upArrowNavbar'><img src={upArrow} alt='...'/></p>
           </li>
           <li class="nav-item">
             <Link
